@@ -8,7 +8,7 @@
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
-
+	Crear un hola mundo en android studio y documentarlo
 -Sistemas operativos 2 12 am
 
 -Modelos de negocios 1pm 
