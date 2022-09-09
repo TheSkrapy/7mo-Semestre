@@ -1,5 +1,5 @@
 -Taller de investigacion 8am
-	Avance del proyecto 	
+	Avance del proyecto 	(12/sep)
 -Redes emergentes 9am
 	Exposicion e investigacion de redes (12/sep)
 	Realizar resumen
@@ -12,20 +12,13 @@
 -Sistemas operativos 2 12 am
 
 -Modelos de negocios 1pm 
-	Portafolio (11/sep)
+	
 	Empresa:
 		Nombre de empresa
 		Logotipo 
-		Lista de servicios
-		slogan
-		vision , mision y 3 valores representativos
-		Redactar conducta de calidad
-		
-		
+			
 	Actividad 1 
 	Investigar los tipos de consultoria   Beneficios de contratar un consultor
-	Actividad 2
-	Lista de servicios que una empresa consultora TI puede ofrecer y buscar un contrato para ese servicio
 
 -Negocios electronicos 2pm
-	Formato
+	Formato ???
