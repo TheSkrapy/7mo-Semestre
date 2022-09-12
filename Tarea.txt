@@ -2,23 +2,16 @@
 	Avance del proyecto 	(12/sep)
 -Redes emergentes 9am
 	Exposicion e investigacion de redes (12/sep)
-	Realizar resumen
+	
 	Examen proximo martes
 
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
-	Crear un hola mundo en android studio y documentarlo
+	
 -Sistemas operativos 2 12 am
 
 -Modelos de negocios 1pm 
-	
-	Empresa:
-		Nombre de empresa
-		Logotipo 
-			
-	Actividad 1 
-	Investigar los tipos de consultoria   Beneficios de contratar un consultor
 
 -Negocios electronicos 2pm
 	Formato ???
