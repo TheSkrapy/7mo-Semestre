@@ -8,6 +8,7 @@
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
+	Aplicacion de calculadora
 	
 -Sistemas operativos 2 12 am	
 
