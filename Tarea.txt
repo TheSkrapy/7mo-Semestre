@@ -1,5 +1,7 @@
 -Taller de investigacion 8am
 	Avance del proyecto 	(12/sep)
+	Objetivo generar dani 
+	
 -Redes emergentes 9am
 	Exposicion e investigacion de redes (12/sep)
 	
@@ -11,7 +13,8 @@
 	Aplicacion de calculadora
 	
 -Sistemas operativos 2 12 am	
-
+	Documento Definicion y objetivos 4 cuartillas de cada uno
+	Exposicion
 -Modelos de negocios 1pm 
 
 -Negocios electronicos 2pm
