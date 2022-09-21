@@ -1,20 +1,15 @@
 -Taller de investigacion 8am
-	Avance del proyecto 	(12/sep)
-	Objetivo generar dani 
 	
 -Redes emergentes 9am
-	Exposicion e investigacion de redes (12/sep)
-	
-	Examen proximo martes
 
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
-	Aplicacion de calculadora
-	
+	elaborar una aplicacion para la estumulaion temprana de niños
+	investigacion en el cuaderno de la compatibilidad con audios mañana	
+
 -Sistemas operativos 2 12 am	
-	Documento Definicion y objetivos 4 cuartillas de cada uno
-	Exposicion
+
 -Modelos de negocios 1pm 
 
 -Negocios electronicos 2pm
