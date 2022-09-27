@@ -1,0 +1,84 @@
+Visión general
+Es imposible realizar proyecciones, establecer estrategias y proponer mejoras si se desconoce el estado actual de las cosas. El proceso de Gestión de Informes tiene como principal objetivo proporcionar a todos los agentes implicados en la gestión de los servicios TI una visión objetiva, basada en datos y métricas, de la calidad y rendimiento de los servicios prestados.
+
+Este proceso tiene como input los datos recopilados a través de toda la organización TI y ofrece como output una serie de informes que aporten el conocimiento necesario para implementar mejoras funcionales, estructurales o para el negocio.
+
+Por su naturaleza este proceso requiere la estrecha colaboración de los otros procesos pues sin ésta se carecerá del adecuado punto de partida para determinar qué datos deben ser registrados, procesados, analizados y posteriormente “digeridos” y presentados como informes.
+
+Introducción y Objetivos
+El objetivo principal de la Gestión de Informes consiste en mantener puntualmente informados a los responsables y personal de la organización TI sobre la calidad, rendimiento de los actuales servicios TI y desarrollos realizados o planificados cara al futuro.
+
+La Gestión de Informes es esencial para:
+
+Garantizar que todos los responsables de la gestión de procesos TI disponen del conocimiento necesario para tomar decisiones informadas.
+Se dispone de todas las métricas necesarias para evaluar de forma global la calidad de los servicios prestados.
+Crear un marco unificado para la generación y difusión de informes que simplifique el acceso a la información.
+Los beneficios de una correcta gestión de este proceso se resumen en:
+
+Ofrecer al conjunto de la organización TI una instantánea periódica sobre el estado de los servicios TI prestados.
+Facilitar la toma de decisiones estratégicas en base a información objetiva.
+Comunicar la percepción de los clientes y usuarios sobre la calidad de los servicios ofrecidos.
+Las principales dificultades a las que se enfrenta la gestión de Generación de Informes incluyen:
+
+No están bien delimitadas las responsabilidades de cada uno de los agentes implicados.
+La recogida de datos no se realiza correctamente o la calidad de los datos es deficiente.
+Los informes generados son meramente técnicos y apenas aportan “inteligencia” al negocio.
+La presentación de los informes no se adecua a su público objetivo: insuficiente información gráfica, lenguaje excesivamente técnico, falta de precisión…
+
+Proceso
+Recopilación de datos
+Los modernos sistemas TI son capaces de registrar, manipular y procesar ingentes cantidades de datos, capacidad que no comparten sus gestores, al menos mientras las máquinas no nos sustituyan en tareas de “alto nivel” :).
+
+Es por ello imprescindible que desde el mismo Inicio del proceso de recogida de datos para la elaboración de informes se seleccionen y filtren los aquellos susceptibles de aportar valor al negocio y a la gestión de los procesos TI.
+
+Es necesario determinar en primaria instancia:
+
+Qué informes se generarán.
+Cuáles son los datos que se necesitan.
+A quién van a ir dirigidos los informes.
+Qué nivel de detalle incluirán.
+Qué formato se utilizará.
+Esto permitirá a los responsables del proceso optimizar las actividades necesarias de recogida de datos.
+
+No debemos caer en la tentación de pensar que los datos nunca sobran. Aunque si bien es cierto que al simple nivel de registro es posible y conveniente guardar la mayor cantidad posible de datos, ya que el coste de esta operación es marginal, la recopilación y preparación de los datos para su posterior análisis y proceso puede ser una tarea infinitamente más compleja y devoradora de recursos, tanto tecnológicos como humanos.
+
+Generar documentación
+Tras procesar y analizar toda la información recopilada es el momento de darle forma a través de informes para proceder a su comunicación a su público objetivo.
+
+Los informes deben ser claros y comprensibles a sus lectores. Por ejemplo todos los informes dirigidos a los responsables del negocio deben obviar abstrusos aspectos técnicos que no aporten valor para la toma de decisiones de carácter estratégico.
+
+En principio los diferentes públicos objetivos incluyen:
+
+Los responsables del negocio: los informes que tengan este grupo como destinatario deben concentrarse en aspectos relacionados con el cumplimiento de los compromisos de nivel de servicio recogidos en los SLAs.
+Los gestores de procesos TI: están principalmente interesados en la calidad y rendimiento de los procesos TI y deben ser informados sobre el cumplimiento de los CSFs y KPIs.
+Personal técnico: necesita información (métricas, KPIs) que les permita mejorar aspectos operativos en la prestación de servicio TI.
+
+Cuando esto sea posible se debe mostrar la información de una forma gráfica que permita su rápida interpretación y oriente a los responsables sobre los aspectos que necesitan una lectura más detallada y productiva.
+
+Los responsables del proceso de Generación de Informes deben velar por la calidad y adecuación al propósito de toda la documentación generada y al mismo tiempo generar los informes necesarios para el control y seguimiento del propio proceso.
+
+La documentación generada sobre las actividades llevadas a cabo por el proceso de Generación de Informes de incluir:
+
+Calendarios de entrega de toda la documentación aportada:
+Descripción individual de los informes generados
+Destinatarios
+Informes sobre las características y calidad de los datos recogidos:
+Origen
+Calidad de los mismos
+Periodicidad: continua, diaria, semanal, mensual...
+Recogida manual o automática
+Metodologías utilizadas para el procesado y análisis de los datos.
+Recursos utilizados.
+Feedback recibido: dirección, gestores y propietarios de servicios y procesos, personal técnico
+Propuestas de mejora.
+En particular los gestores deberán velar porque los informes:
+
+Estén correctamente escritos en un lenguaje sencillo y directo.
+Contengan toda la información necesaria.
+Faciliten la “digestión” de la información a través de gráficas y diagramas.
+Tengan una dimensión y profundidad acorde con las necesidades y conocimientos de sus destinatarios.
+Sean fácilmente accesibles a todas las personas a las que van dirigidos.
+
+http://segenuino.com/itil/proceso_mejora_continua_servicios_TI/informes_servicios_ti/control_proceso.html
+
+https://www.researchgate.net/figure/Diagrama-del-proceso-de-elaboracion-del-informe-de-actividades_fig3_283273169
