@@ -2,11 +2,12 @@
 	
 -Redes emergentes 9am
 	Ejemplos de videos (tener la configuracion en cuaderno y digital) y hacer las configuraciones de los ejemplos
+	Ejemplo 7 y 8
 
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
-	
+	Tablas de multiplicar para niños (idea, juego que presente una operacion de multiplicacion entre la del 1 y 10)
 
 -Sistemas operativos 2 12 am	
 
