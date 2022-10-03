@@ -1,8 +1,7 @@
 -Taller de investigacion 8am
 	
 -Redes emergentes 9am
-	Ejemplos de videos (tener la configuracion en cuaderno y digital) y hacer las configuraciones de los ejemplos
-	Ejemplo 7 y 8
+	Resumen unidad 2
 
 -Interaccion humano computadora 10am
 
@@ -10,8 +9,10 @@
 	Tablas de multiplicar para niños (idea, juego que presente una operacion de multiplicacion entre la del 1 y 10)
 
 -Sistemas operativos 2 12 am	
+	Expo unidad 2 (6/10)
+	Investigacion unidad 2 (6/10)
 
 -Modelos de negocios 1pm 	
-	
+
 -Negocios electronicos 2pm
-	Tareas para el 30 de sep
+	Practica video

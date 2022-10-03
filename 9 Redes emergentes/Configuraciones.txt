@@ -1,0 +1,61 @@
+Configuraciones generales
+
+>ip de una computadora
+
+Entramos a la pc
+Nos vamos a desktop
+Abrimos ip configuration 
+Agregamos la ip correspondiente al equipo en ip address (Esta debe se a partir de la 2, ejemplo 0.0.0.2)
+Se nos agregara una submascara correspondiente a la ip clase A 0.0.0.0 255.0.0.0, clase B 128.0.0.0 255.255.0.0, clase C 192.0.0.0 255.255.255.0
+Agregamos el default gateway, regularmente es por ello que partimos desde la ip 2, para en este poner por ejemplo 0.0.0.1
+
+>Switch
+
+-Creacion de vlan
+Enamble 
+Configure terminal 
+vlan (Numero de subred, ejemplo: "vlan 50")
+
+-Configuracion de switch a computadora
+Enamble 
+Configure teminal
+Interface fastethernet (Numero de puerto, ejemplo: "0/1")
+Switchport mode access 
+Switchport access vlan (Numero de vlan correspondiente, ejemplo "50")
+
+-Configuracion de switch a router
+Enamble 
+Configure terminal
+Interface fastethernet (Numero de puerto al que esta conectado el router, ejemplo: "0/24")
+Switchport mode access 
+Switchport mode trunk
+
+
+>Router
+
+-Activacion de puerto de router a switch
+Enamble 
+Configure terminal
+Interface fastethernet (Numero de puerto al que esta conectado el router, ejemplo:"0/0")
+no shutdown
+
+-Configuracion del encapsulamiento para permitir conectar una subred a otra
+Enamble
+Configure terminal
+Interface fastethernet (Numero de subred que queremos establecer, ejemplo:"0/0.50")
+Encapsulation dot1Q (Numero de subred, ejemplo:"50")
+ip add (Numero de ip gateway de la red, ejemplo:"192.168.50.1 255.255.255.0")
+
+-Configuracion de conexion con otro router
+Enamble 
+Configure terminal
+Interface serial (Numero de la red con la cual se conecta con otro router, ejemplo:"0/0/0")
+ip add (agregamos la red con la cual vamos a conectar el router con otro, ejemplo:"10.10.10.1 255.0.0.0")
+no shutdown 
+
+-Configuracion del protocolo rip v2
+Enamble
+Configure terminal
+router rip 
+version 2
+network (agregamos las rutas que pasan directamente con el router, ejemplo:"10.10.10.1" y en otra linea repetimos el comando con otra red "192.168.50.1")
