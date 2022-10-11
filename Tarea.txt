@@ -1,18 +1,17 @@
 -Taller de investigacion 8am
+	Terminar anteproyecto
+		
 	
 -Redes emergentes 9am
-	Resumen unidad 2
 
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
-	Tablas de multiplicar para niños (idea, juego que presente una operacion de multiplicacion entre la del 1 y 10)
+	Aplicacion para discapacitados
 
 -Sistemas operativos 2 12 am	
-	Expo unidad 2 (6/10)
-	Investigacion unidad 2 (6/10)
 
 -Modelos de negocios 1pm 	
 
 -Negocios electronicos 2pm
-	Practica video
+	Replica de google y no recuerdo que mas
