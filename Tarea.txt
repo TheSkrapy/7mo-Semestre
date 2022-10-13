@@ -1,6 +1,27 @@
 -Taller de investigacion 8am
 	Terminar anteproyecto
-		
+	yo	1.-Conceptualizacion de las variables
+		Hipotesis de la investigacion 
+			2.-Hipotesis causal bivariado
+			3.-Hipotesis causal multivariado 
+			4.-Hipotesis descriptiva
+			5.-Hipotesis de afirmacion
+			6.-Hipotesis diferencia de grupos
+			7-Hipotesis de correlacion
+	yo	8.-Justificacion de la investigacion 
+		Diseño de la investigacion 
+			9.-Estudio exploratorio 
+			10.-Estudio descriptivo
+			11.-Estudio de correlacion
+			12.-Estudio explicativo
+	yo	13.-Identificacion y descripcion del universo o poblacion
+		14.-Tecnica de extraccion de muestreo al universo o poblacion de estudio
+		15.-Diseño de instrumento de medicion
+		16.-Conclusiones del estudio
+		17.-Recomendaciones del estudio
+		Anexos 
+		18.-Glosario de terminos 
+		Bibliografia
 	
 -Redes emergentes 9am
 
@@ -10,8 +31,27 @@
 	Aplicacion para discapacitados
 
 -Sistemas operativos 2 12 am	
-
+	Examen miercoles 
 -Modelos de negocios 1pm 	
 
 -Negocios electronicos 2pm
-	Replica de google y no recuerdo que mas
+	Replica de google
+	Investigacion en equipo
+		Definición de arquitectura de un sitio web	
+		Arquitectura de la información de un sitio web	
+		Definición de taxonomía de un sitio web, ejemplo	
+		Definición de ontología de un sitio web, ejemplo	
+		Definición de web semántica	
+		Concepto y aspectos importantes de la arquitectura profunda	
+		Concepto y aspectos importantes de la arquitectura plana	
+		Concepto de silos SEO	
+		Conceptos de silo físico y silo virtual	
+		10 ideas para generar contenidos digitales	
+		Descripción de navegación contextual	
+		Descripción del instrumento Google Search Console	
+		Arquitectura técnica de un sitio web	
+		Descripción de palabras clave Ecommerce, rastreo, enlaces internos	
+		Plataformas abiertas recomendadas para crear sitios ecomerce	
+
+	Firebase
+	
