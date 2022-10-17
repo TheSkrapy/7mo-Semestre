@@ -7,38 +7,88 @@
     <title>Unidad 3 Practica 1 </title>
 </head>
 <body>
-    <header>
-        
-    </header>
+  <p><h3>¿Tienes algun problema con tu juego? Rellena este cuestionario y nos pondremos en contacto</h3></p>
+       
+  <form class="container" name="Formulario" id="formulario"> 
+      <table aling="center">
+          <tr>
+              <td>Nombre</td>
+              <td><input type="text" id="name" name="nombre" placeholder="Escribe tu nombre" required></td>
+          </tr>
+          <tr>
+              <td>E-Mail</td>
+              <td><input type="email" id="email" name="email" placeholder="Aqui@tucorreo.com" required></td>
+          </tr>
+          <tr>
+              <td>Edad</td>
+              <td><input type="number" id="edad" name="edad" placeholder="Escribe tu edad" required></td>
+          </tr>
+          <tr>
+              <td>Fecha</td>
+              <td><input type="date" id="fecha" name="fecha" placeholder="Escribe la fecha" required></td>
+          </tr>
+              <td>Describe tu problema:</td>
+              <td><textarea cols="17" rows="8" id="msg" name="mensaje" required></textarea></td>
+          <tr>
+              <td><input type="submit" name="boton" value="Enviar"></td>
+          </tr>
+      </table>
 
+      
+<script>
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
-    <main>
-
-    </main>
+  
+  import { initializeApp } from "firebase/app";
+  import { getAnalytics } from "firebase/analytics";
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyBbBCVpqkzwCXqIn_pMfrDmhGxqlgHIG5c",
+    authDomain: "paginaweb-26d26.firebaseapp.com",
+    projectId: "paginaweb-26d26",
+    storageBucket: "paginaweb-26d26.appspot.com",
+    messagingSenderId: "470621483874",
+    appId: "1:470621483874:web:7eeb10a6503b5194bcf23b",
+    measurementId: "G-C4HDFTPLGN"
+  };
+  
+  //const app = initializeApp(firebaseConfig);
+  //const analytics = getAnalytics(app);
+  
+  firebase.initializeApp(firebaseConfig);
+  
+  var messagesRef=firebase.database()
+    .ref('Collected Data');
     
-
-    <footer>
-
-    </footer>
+  document.getElementById('formulario')
+    .addEventListener('submit',submitForm);
+  
+  function submitForm(e)
+  {e.preventDefault();
+    //Get values
+    var name=getInputVal('name');
+    var email=getInputVal('email');
+    var edad=getInputVal('edad');
+    var fecha=getInputVal('fecha');
+    var msg=getInputVal('msg');
+  
+    saveMessage(name,email,edad,fecha,msg);
+    document.getElementById('formulario').reset();}
+    
+    //Functiontogetgetformvalues
+    function getInputVal(id)
+    {return document.getElementById(id).value;}
+    
+    //Savemessagetofirebase
+    function saveMessage(name,email,edad,fecha,msg)
+    {var newMessageRef=messagesRef.push();
+      newMessageRef.set({name:name,email:email,edad:edad,fecha:fecha,msg:msg});}
+  
+  </script>
+  </form>
 </body>
 </html>
 
 
-
-<script>
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyBbBCVpqkzwCXqIn_pMfrDmhGxqlgHIG5c",
-  authDomain: "paginaweb-26d26.firebaseapp.com",
-  projectId: "paginaweb-26d26",
-  storageBucket: "paginaweb-26d26.appspot.com",
-  messagingSenderId: "470621483874",
-  appId: "1:470621483874:web:7eeb10a6503b5194bcf23b",
-  measurementId: "G-C4HDFTPLGN"
-};
-
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-</script>
