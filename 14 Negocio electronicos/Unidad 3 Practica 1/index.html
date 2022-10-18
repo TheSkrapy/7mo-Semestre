@@ -7,88 +7,60 @@
     <title>Unidad 3 Practica 1 </title>
 </head>
 <body>
-  <p><h3>¿Tienes algun problema con tu juego? Rellena este cuestionario y nos pondremos en contacto</h3></p>
-       
-  <form class="container" name="Formulario" id="formulario"> 
-      <table aling="center">
-          <tr>
-              <td>Nombre</td>
-              <td><input type="text" id="name" name="nombre" placeholder="Escribe tu nombre" required></td>
-          </tr>
-          <tr>
-              <td>E-Mail</td>
-              <td><input type="email" id="email" name="email" placeholder="Aqui@tucorreo.com" required></td>
-          </tr>
-          <tr>
-              <td>Edad</td>
-              <td><input type="number" id="edad" name="edad" placeholder="Escribe tu edad" required></td>
-          </tr>
-          <tr>
-              <td>Fecha</td>
-              <td><input type="date" id="fecha" name="fecha" placeholder="Escribe la fecha" required></td>
-          </tr>
-              <td>Describe tu problema:</td>
-              <td><textarea cols="17" rows="8" id="msg" name="mensaje" required></textarea></td>
-          <tr>
-              <td><input type="submit" name="boton" value="Enviar"></td>
-          </tr>
-      </table>
-
-      
-<script>
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-  
-  import { initializeApp } from "firebase/app";
-  import { getAnalytics } from "firebase/analytics";
-  
-  var firebaseConfig = {
-    apiKey: "AIzaSyBbBCVpqkzwCXqIn_pMfrDmhGxqlgHIG5c",
-    authDomain: "paginaweb-26d26.firebaseapp.com",
-    projectId: "paginaweb-26d26",
-    storageBucket: "paginaweb-26d26.appspot.com",
-    messagingSenderId: "470621483874",
-    appId: "1:470621483874:web:7eeb10a6503b5194bcf23b",
-    measurementId: "G-C4HDFTPLGN"
-  };
-  
-  //const app = initializeApp(firebaseConfig);
-  //const analytics = getAnalytics(app);
-  
-  firebase.initializeApp(firebaseConfig);
-  
-  var messagesRef=firebase.database()
+  <section>
+    <h2 class="text-primary" style="margin-left: 15px; margin-bottom: 10px"> Hey There,Help Us In Collecting Data </h2>
+    <form class="container" id="contactForm">
+    <div class="card"> <div class="card-body"></div>
+    <div class="form-group">
+    <label for="exampleFormControlInput1"> Enter Your 
+    Name </label>
+    <input type="text" class="form-control" id="name"
+    placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+    <label for="exampleFormControlInput1"> Email address 
+    </label>
+    <input type="email" class="form-control" id="email"
+    placeholder="name@example.com">
+    </div>
+    </div>
+    <button type="submit" class="btn btn-primary" style="margin-left: 15px; margin-top: 10px"> Submit </button> </div>
+    </form>
+    <script
+    src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"> </script>
+    <script>
+    var firebaseConfig = {
+    apiKei: "AIzaSyBAkvhYyJTkVry_-Td7nhTIDXrT2dtk",
+    authDomain: "practica1u3-a7ce6.firebaseapp.com",
+    databaseURL: "https://paginaweb-26d26-default-rtdb.firebaseio.com/",
+    projectId: "practica1u3-a7ce6",
+    storageBucket: "practica1u3-a7ce6.appspot.com",
+    messagingSenderId: "1045925369294",
+    appId: "1:1045925369294:web:1a9b107205e21caeaa879f",
+    measurementId: "G-ECCF2RW8V1"
+    };
+    firebase.initializeApp(firebaseConfig); 
+    var messagesRef = firebase.database() 
     .ref('Collected Data');
-    
-  document.getElementById('formulario')
-    .addEventListener('submit',submitForm);
-  
-  function submitForm(e)
-  {e.preventDefault();
-    //Get values
-    var name=getInputVal('name');
-    var email=getInputVal('email');
-    var edad=getInputVal('edad');
-    var fecha=getInputVal('fecha');
-    var msg=getInputVal('msg');
-  
-    saveMessage(name,email,edad,fecha,msg);
-    document.getElementById('formulario').reset();}
-    
-    //Functiontogetgetformvalues
-    function getInputVal(id)
-    {return document.getElementById(id).value;}
-    
-    //Savemessagetofirebase
-    function saveMessage(name,email,edad,fecha,msg)
-    {var newMessageRef=messagesRef.push();
-      newMessageRef.set({name:name,email:email,edad:edad,fecha:fecha,msg:msg});}
-  
-  </script>
-  </form>
-</body>
-</html>
-
-
+    document.getElementById('contactForm') 
+    .addEventListener('submit', submitForm);
+    function submitForm(e) { 
+    e.preventDefault();
+    var name = getInputVal('name'); 
+    var email = getInputVal('email'); 
+    saveMessage(name, email); 
+    document.getElementById('contactForm').reset(); 
+    } 
+    // Function to get get form values 
+    function getInputVal(id) { 
+    return document.getElementById(id).value; 
+    }
+    // Save message to firebase 
+    function saveMessage(name, email) { 
+    var newMessageRef = messagesRef.push(); 
+    newMessageRef.set({ 
+    name: name, email: email, 
+    }); 
+    }
+    </script>
+    </section></body></html>
