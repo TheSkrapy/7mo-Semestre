@@ -1,5 +1,5 @@
 -Taller de investigacion 8am
-	Terminar anteproyecto
+	Terminar anteproyecto   (31/10/2022)
 	yo	1.-Conceptualizacion de las variables
 		Hipotesis de la investigacion 
 		Julio	2.-Hipotesis causal bivariado
@@ -30,20 +30,15 @@
 -Interaccion humano computadora 10am
 
 -Desarrollo de aplicaciones moviles 11am
-	Aplicacion para discapacitados
 
 -Sistemas operativos 2 12 am	
-	Examen miercoles 
--Modelos de negocios 1pm 	
+	Examen jueves y viernes (27-28/10/2022)
+
+-Modelos de negocios 1pm 
+	Portafolio unidad 3 (27/10/2022)	
 
 -Negocios electronicos 2pm
-	Confirmacion y login de firebase
-	Expo en equipo
-	
+	Expo en equipo  (31/10/2022)	
 3.4 Tipo de negocios electronicos deacuerdo a su funcion (yo)
-3.4.1 Tiendas electronicas (sheila) 
-3.4.2 Subastas electronicas (Juan)
-3.4.3 Centros comerciales (Raga)
-3.4.4 Escaparate de marketing (2 Wendy y diego )
-3.4.5 Comunidades virtuales (Dani) 
-3.4.6 Ejemplos de exito Ddtech y ciberpuerta (Julio)
+
+	Pagina web (31/10/2022)

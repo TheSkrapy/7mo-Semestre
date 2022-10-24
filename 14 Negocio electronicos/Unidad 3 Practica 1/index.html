@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <title>Unidad 3 Practica 1 </title>
 </head>
 <body>
-<<<<<<< HEAD
+
   <section>
     <h2 class="text-primary" style="margin-left: 15px; margin-bottom: 10px"> Hey There,Help Us In Collecting Data </h2>
     <form class="container" id="contactForm">
@@ -28,8 +29,11 @@
     <button type="submit" class="btn btn-primary" style="margin-left: 15px; margin-top: 10px"> Submit </button> </div>
     </form>
     <script
-    src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"> </script>
+    src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js">
+    src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth.js"
+     </script>
     <script>
+  
     var firebaseConfig = {
     apiKei: "AIzaSyBAkvhYyJTkVry_-Td7nhTIDXrT2dtk",
     authDomain: "practica1u3-a7ce6.firebaseapp.com",
@@ -42,41 +46,6 @@
     };
     firebase.initializeApp(firebaseConfig); 
     var messagesRef = firebase.database() 
-=======
-  <p><h3>¿Tienes algun problema con tu juego? Rellena este cuestionario y nos pondremos en contacto</h3></p>
-       
-  <form class="container" name="Formulario" id="formulario"> 
-      <table aling="center">
-          <tr>
-              <td>Nombre</td>
-              <td><input type="text" id="name" name="nombre" placeholder="Escribe tu nombre" required></td>
-          </tr>
-          <tr>
-              <td>E-Mail</td>
-              <td><input type="email" id="email" name="email" placeholder="Aqui@tucorreo.com" required></td>
-          </tr>
-          <tr>
-              <td>Edad</td>
-              <td><input type="number" id="edad" name="edad" placeholder="Escribe tu edad" required></td>
-          </tr>
-          <tr>
-              <td>Fecha</td>
-              <td><input type="date" id="fecha" name="fecha" placeholder="Escribe la fecha" required></td>
-          </tr>
-              <td>Describe tu problema:</td>
-              <td><textarea cols="17" rows="8" id="msg" name="mensaje" required></textarea></td>
-          <tr>
-              <td><input type="submit" name="boton" value="Enviar"></td>
-          </tr>
-      </table>
-
-      
-
-  
-  firebase.initializeApp(firebaseConfig);
-  
-  var messagesRef=firebase.database()
->>>>>>> ea39b8eb708583bc34e52c51a9569a5447b81e6a
     .ref('Collected Data');
     document.getElementById('contactForm') 
     .addEventListener('submit', submitForm);
