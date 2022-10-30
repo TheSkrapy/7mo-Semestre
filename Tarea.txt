@@ -1,29 +1,5 @@
 -Taller de investigacion 8am
-	Terminar anteproyecto   (31/10/2022)
-	yo	1.-Conceptualizacion de las variables
-		Hipotesis de la investigacion 
-		Julio	2.-Hipotesis causal bivariado
-		Julio	3.-Hipotesis causal multivariado 
-		Julio	4.-Hipotesis descriptiva
 
-		Dani	5.-Hipotesis de afirmacion
-		Dani	6.-Hipotesis diferencia de grupos
-		Dani	7-Hipotesis de correlacion
-	yo	8.-Justificacion de la investigacion 
-		Diseño de la investigacion 
-		Juan	9.-Estudio exploratorio 
-			10.-Estudio descriptivo
-			11.-Estudio de correlacion
-
-		Raga	12.-Estudio explicativo
-	yo	13.-Identificacion y descripcion del universo o poblacion
-	Raga	14.-Tecnica de extraccion de muestreo al universo o poblacion de estudio
-	Sheila	15.-Diseño de instrumento de medicion
-	Sheila	16.-Conclusiones del estudio
-	Raga	17.-Recomendaciones del estudio
-	Sheila	18.-Anexos 
-	Sheila	19.-Glosario de terminos 
-		Bibliografia
 	
 -Redes emergentes 9am
 
@@ -32,13 +8,9 @@
 -Desarrollo de aplicaciones moviles 11am
 
 -Sistemas operativos 2 12 am	
-	Examen jueves y viernes (27-28/10/2022)
+	Examen lunes  (31/10/2022)
 
 -Modelos de negocios 1pm 
-	Portafolio unidad 3 (27/10/2022)	
-
+	
 -Negocios electronicos 2pm
-	Expo en equipo  (31/10/2022)	
-3.4 Tipo de negocios electronicos deacuerdo a su funcion (yo)
-
-	Pagina web (31/10/2022)
+	
