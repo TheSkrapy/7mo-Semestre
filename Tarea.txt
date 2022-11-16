@@ -1,9 +1,12 @@
 -Taller de investigacion 8am
 
 -Redes emergentes 9am
-	Practicas unidad 4 (seguridad)
+	Practicas unidad 4 configuracion y papel (seguridad)
+	examen unidad 4 teorico y a papel (vierner)
+	examen unidad 2 proxima semnana (21/25)
 
 -Interaccion humano computadora 10am
+    Documentacion aplicacion
 
 -Desarrollo de aplicaciones moviles 11am
 	Aplicacion de apoyo para el tec
