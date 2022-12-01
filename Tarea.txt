@@ -1,20 +1,18 @@
 -Taller de investigacion 8am
 
 -Redes emergentes 9am
-	Practicas unidad 4 configuracion y papel (seguridad)
-	examen unidad 4 teorico y a papel (vierner)
-	examen unidad 2 proxima semnana (21/25)
 
 -Interaccion humano computadora 10am
-    Documentacion aplicacion
 
 -Desarrollo de aplicaciones moviles 11am
-	Aplicacion de apoyo para el tec
 
 -Sistemas operativos 2 12 am	
+    investigacion y exposicion tema 5 (3/12)
+    investigacion y exposicion tema 6 (6/12)
 
 -Modelos de negocios 1pm 
-	Portafolio unidad 4 (17/11/2022)	
+	Portafolios unidad 5 (2/12/2022)
+    Proyecto final outic (5/12/2022)
 
 -Negocios electronicos 2pm
 	
