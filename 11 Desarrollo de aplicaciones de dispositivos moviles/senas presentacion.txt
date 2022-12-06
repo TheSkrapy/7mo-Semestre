@@ -1,0 +1,6 @@
+En el traductor de lengua de señas Mexicanas podrás obtener
+la seña correspondiente a cada letra de un texto digitado, o introducido
+utilizando el microfono de tu celular.
+También puedes seleccionar las señas que desees, y así formas palabras
+y frases.
+Finalmente podrás encontrar las señas correspondientes al abecedario, meses, tiempo, y saludos

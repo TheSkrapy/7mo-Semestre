@@ -1,0 +1,4 @@
+En el sistema de gestión de datos del Instituto Tecnologico de Reynosa,
+con autenticación requerida podrás registrar información en el sistema, como lo son los datos de un alumno
+Una vez realizado el registro se generará un código qr, el cual debes guardar para posteriormente usarlo.
+Finalmente podrás escanear el código QR generado, y obtener la información del alumno registrado.
