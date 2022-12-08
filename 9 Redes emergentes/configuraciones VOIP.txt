@@ -1,0 +1,75 @@
+Conf ruter
+Router>ena
+Router#conf t
+Router(config)#ip dhcp pool DATOS
+Router(dhcp-config)#network 192.168.30.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.30.1
+Router(dhcp-config)#ip dhcp pool VOZ
+Router(dhcp-config)#network 192.168.40.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.40.1
+Router(dhcp-config)#option 150 ip 192.168.40.1
+Router(dhcp-config)#exit
+Router(config)#ip dhcp excluded-address 192.168.30.1
+Router(config)#ip dhcp excluded-address 192.168.40.1
+Router(config)#int fa0/0
+Router(config-if)#no sh
+Router(config-if)#int fa0/0.30
+Router(config-subif)#encapsulation dot1Q 30
+Router(config-subif)#ip add 192.168.30.1 255.255.255.0
+Router(config-subif)#int fa0/0.40
+Router(config-subif)#encapsulation dot1Q 40
+Router(config-subif)#ip add 192.168.40.1 255.255.255.0
+Router(config-subif)#exit
+Router(config)#int se0/0/0
+Router(config-if)#no sh
+Router(config-if)#ip add 10.0.0.2 255.255.255.252
+Router(config)#int se0/0/1
+Router(config-if)#no sh
+Router(config-if)#ip add 20.0.0.2 255.255.255.252
+Router(config-if)#exit
+Router(config)#telephony-service 
+Router(config-telephony)#max-dn 5
+Router(config-telephony)#max-ephones 5
+Router(config-telephony)#ip source-address 192.168.40.1 port 2000
+Router(config-telephony)#auto assign 1 to 5
+Router(config-telephony)#exit
+Router(config)#ephone-dn 1
+Router(config-ephone-dn)#number 2001
+Router(config-ephone-dn)#ephone-dn 2
+Router(config-ephone-dn)#number 2002
+Router(config-ephone-dn)#exit
+Router(config)#router eigrp 1
+Router(config-router)#network 20.0.0.0 0.0.0.3
+Router(config-router)#network 10.0.0.0 0.0.0.3
+Router(config-router)#network 192.168.30.0 0.0.0.255
+Router(config-router)#exit
+Router(config-router)#exit
+Router(config)#dial-peer voice 1 voip
+Router(config-dial-peer)#destination-pattern 108.
+Router(config-dial-peer)#session target ipv4:10.0.0.1
+Router(config-dial-peer)#exit
+Router(config)#dial-peer voice 2 voip
+Router(config-dial-peer)#destination-pattern 300.
+Router(config-dial-peer)#session target ipv4:20.0.0.1
+Router(config-dial-peer)#exit
+
+SWITCH 
+Switch>ena
+Switch#conf t
+Switch(config)#vlan 50
+Switch(config-vlan)#name DATOS
+Switch(config-vlan)#vlan 60
+Switch(config-vlan)#name VOZ
+Switch(config-vlan)#exit
+Switch(config)#int fa0/3
+Switch(config-if)#no sh
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 50
+Switch(config-if)#switchport voice vlan 60
+Switch(config-if)#int fa0/24
+Switch(config-if)#switchport mode trunk
+Switch(config)#int range fa0/1-2
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 50
+Switch(config-if-range)#switchport voice vlan 60
+Switch(config-if-range)#exit
